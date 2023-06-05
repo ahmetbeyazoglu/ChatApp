@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1041454457641",
+    "project_id": "chatapplication-ee303",
+    "storage_bucket": "chatapplication-ee303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041454457641:android:abcfbdbccf8283522e0d38",
+        "android_client_info": {
+          "package_name": "com.herpestes.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041454457641-9gltg0rohr4e4i098eg1q2d65hgb9at3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEscDyTC8P-kbXB3Xd0rHKcQ96vWDc50Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041454457641-9gltg0rohr4e4i098eg1q2d65hgb9at3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
