@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
 class Login : AppCompatActivity() {
@@ -45,6 +46,19 @@ class Login : AppCompatActivity() {
 
     private fun login(email: String, password: String){
         //logic for logging user
+
+        mAuth.signInWithEmailAndPassword(email, password)
+            .addOnCompleteListener(this) { task ->
+                if (task.isSuccessful) {
+                    // code for logging in user
+                    val intent = Intent(this@Login,MainActivity::class.java)
+                    startActivity(intent)
+
+                } else {
+                    Toast.makeText(this@Login, "User does not exits", Toast.LENGTH_LONG).show()
+
+                }
+            }
 
     }
 
